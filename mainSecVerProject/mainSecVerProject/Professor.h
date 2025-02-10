@@ -21,4 +21,21 @@ public:
     string getDegree();
 };
 
+struct ProfessorNode {
+    Professor data;
+    ProfessorNode* next;
+
+    ProfessorNode(Professor professor) {
+data = professor; 
+next = nullptr;
+
+
+}
+};
+
+// Métodos CRUD
+void addProfessor(ProfessorNode*& head, string id, string name, string degree);
+void viewProfessor(ProfessorNode* head, string id);
+void updateProfessor(ProfessorNode* head, string id, string newName, string newDegree);
+void deleteProfessor(ProfessorNode*& head, string id);
 
