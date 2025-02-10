@@ -47,12 +47,6 @@ public:
 
     void setCourse(const Course& course);
 
-    void addSchedule(int day, int startTime, int finishTime, int classroom);
-
-    void printSchedule();
-
-    void printCourse();
-
     void addSchedule();
 
     void removeSchedule();

@@ -10,3 +10,23 @@ Professor::Professor(string name, string id)
     : Person(name, id) {  // Llama al constructor de la clase base Person
     
 }
+
+void addProfessor() {
+
+
+}
+
+void viewProfessorDetails() {
+
+
+}
+
+void updateProfessorDetails() {
+
+
+}
+
+void removeProfessor() {
+
+
+}

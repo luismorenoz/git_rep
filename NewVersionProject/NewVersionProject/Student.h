@@ -14,15 +14,26 @@ public:
     
     Student(string name, string id);
 
-    void addStudent();
-    
-    void viewStudentDetails();
+};
 
-    void updateStudentDetails();
+struct StudentNode {
 
-    void removeStudent();
+    Student data;
+    StudentNode* next;
+
+    StudentNode(Student student) : data(student), next(nullptr) {}
+
 
 };
+
+
+void addStudent(StudentNode*& head, string name, string id);
+
+void viewStudentDetails(StudentNode* head);
+
+void updateStudentDetails(StudentNode* head, string id, string newName, string newId);
+
+void removeStudent(StudentNode*& head, string id);
 
 
 

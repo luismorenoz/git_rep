@@ -31,3 +31,29 @@ Registration Condition::getCourseB() const {
 void Condition::setCourseB(const Registration& courseB) {
     this->courseB = courseB;
 }
+
+void checkConflict() {
+
+
+}
+
+void validatePrerequisite() {
+
+
+}
+
+void validateRightMajor() {
+
+
+}
+
+void calculateCost() {
+
+
+}
+
+void checkApproval() {
+
+
+}
+

@@ -61,3 +61,14 @@ int CoursePerGroup::getStage() const {
 void CoursePerGroup::setStage(int stage) {
     this->stage = stage;
 }
+
+
+void addGroup() {
+
+
+}
+
+void viewGroupDetails() {
+
+
+}

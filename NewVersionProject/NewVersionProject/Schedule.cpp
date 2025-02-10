@@ -73,3 +73,18 @@ void Schedule::setCourse(const Course& course) {
     this->course = course;
 }
 
+void addSchedule() {
+
+
+}
+
+void removeSchedule() {
+
+
+}
+
+void viewSchedule() {
+
+
+}
+

@@ -62,3 +62,22 @@ void Course::setLevel(int level) {
     this->level = level;
 
 }
+
+void addCourse() {
+
+}
+
+void removeCourse() {
+
+
+}
+
+void viewCourseDetails() {
+
+
+}
+
+void viewCourseDetails() {
+
+
+}

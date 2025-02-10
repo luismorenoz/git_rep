@@ -41,3 +41,29 @@ string RegistrationDetail::getGrade() const {
 void RegistrationDetail::setGrade(const string& grade) {
     this->grade = grade;
 }
+
+
+void addRegistrationDetail() {
+
+
+}
+
+void viewRegistrationDetail() {
+
+
+}
+
+void updateGrade() {
+
+
+}
+
+void calculateCost() {
+
+
+}
+
+void removeRegistrationDetail() {
+
+
+}

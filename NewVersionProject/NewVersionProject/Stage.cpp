@@ -41,3 +41,13 @@ RegistrationDetail Stage::getCost() const {
 void Stage::setCost(const RegistrationDetail& cost) {
     this->cost = cost;
 }
+
+void addStage() {
+
+
+}
+
+void viewStage() {
+
+
+}
