@@ -1,5 +1,6 @@
 #include "Schedule.h"
-
+#include "Course.h"
+#include "Professor.h"
 using namespace std;
 
 // Constructor vacío
@@ -71,3 +72,4 @@ Course Schedule::getCourse() const {
 void Schedule::setCourse(const Course& course) {
     this->course = course;
 }
+

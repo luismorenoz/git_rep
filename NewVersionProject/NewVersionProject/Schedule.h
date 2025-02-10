@@ -7,7 +7,7 @@ using namespace std;
 
 class Schedule {
 private:
-    // Atributos
+ 
     string code;
     string startTime;
     string endTime;
@@ -46,6 +46,18 @@ public:
     Course getCourse() const;
 
     void setCourse(const Course& course);
+
+    void addSchedule(int day, int startTime, int finishTime, int classroom);
+
+    void printSchedule();
+
+    void printCourse();
+
+    void addSchedule();
+
+    void removeSchedule();
+
+    void viewSchedule();
 };
 
 

@@ -7,6 +7,7 @@
 using namespace std;
 
 class Stage {
+
 private:
     string semester;      
     string year;          
@@ -27,7 +28,13 @@ public:
     void setYear(const string& year);
 
     RegistrationDetail getCost() const;
+
     void setCost(const RegistrationDetail& cost);
+
+    void addStage();
+
+    void viewStage();
+
 };
 
 

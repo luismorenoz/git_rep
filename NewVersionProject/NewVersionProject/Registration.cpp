@@ -41,3 +41,4 @@ int Registration::getStage() const {
 void Registration::setStage(int stage) {
     this->stage = stage;
 }
+

@@ -5,6 +5,7 @@
 using namespace std;
 
 class Condition {
+
 private:
     // Atributos
     Registration courseA;  // Primer registro de curso
@@ -23,5 +24,16 @@ public:
 
     Registration getCourseB() const;
     void setCourseB(const Registration& courseB);
+
+    void checkConflict();
+
+    void validatePrerequisite();
+
+    void validateRightMajor();
+
+    void calculateCost();
+
+    void checkApproval();
+
 };
 

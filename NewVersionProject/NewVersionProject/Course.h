@@ -40,6 +40,13 @@ public:
     int getLevel() const;
 
     void setLevel(int level);
+
+    void addCourse();
+
+    void removeCourse();
+
+    void viewCourseDetails();
+
 };
 
 

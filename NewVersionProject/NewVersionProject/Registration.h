@@ -4,6 +4,7 @@
 using namespace std;
 
 class Registration {
+
 private:
 
     string code;    
@@ -29,6 +30,15 @@ public:
     int getStage() const;
 
     void setStage(int stage);
+
+    void addRegistration();
+    
+    void viewRegistration();
+
+    void removeRegistration();
+
+    void checkRegistrationConflict();
+
 };
 
 

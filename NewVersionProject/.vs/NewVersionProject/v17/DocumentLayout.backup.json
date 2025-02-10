@@ -3,76 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Professor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Professor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Professor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Professor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\RegistrationDetail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\RegistrationDetail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Condition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Condition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\RegistrationDetail.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\RegistrationDetail.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\RegistrationDetail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\RegistrationDetail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Registration.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Registration.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Registration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Registration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\CoursePerGroup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\CoursePerGroup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\CoursePerGroup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\CoursePerGroup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Condition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Condition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Schedule.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Schedule.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Registration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Registration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Course.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Course.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Condition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Condition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Professor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Professor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Schedule.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -83,8 +55,40 @@
       "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Course.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\NewVersionProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\NewVersionProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Program.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Program.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Professor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Professor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\CoursePerGroup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\CoursePerGroup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Condition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29E1ECF3-2D99-4557-AEF3-17DC6D585B78}|NewVersionProject\\NewVersionProject.vcxproj|solutionrelative:NewVersionProject\\Condition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,76 +98,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Program.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Program.h",
+              "RelativeDocumentMoniker": "NewVersionProject\\Program.h",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Program.h",
+              "RelativeToolTip": "NewVersionProject\\Program.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-09T23:13:09.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Course.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Course.h",
               "RelativeDocumentMoniker": "NewVersionProject\\Course.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Course.h",
               "RelativeToolTip": "NewVersionProject\\Course.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:32:55.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 12,
               "Title": "Course.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Course.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\Course.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Course.cpp",
               "RelativeToolTip": "NewVersionProject\\Course.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-09T01:47:01.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "Schedule.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Schedule.h",
               "RelativeDocumentMoniker": "NewVersionProject\\Schedule.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Schedule.h",
               "RelativeToolTip": "NewVersionProject\\Schedule.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:33:49.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 11,
               "Title": "Schedule.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Schedule.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\Schedule.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Schedule.cpp",
               "RelativeToolTip": "NewVersionProject\\Schedule.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-09T01:47:42.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "Condition.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Condition.h",
               "RelativeDocumentMoniker": "NewVersionProject\\Condition.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Condition.h",
               "RelativeToolTip": "NewVersionProject\\Condition.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:33:40.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Condition.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Condition.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\Condition.cpp",
@@ -171,25 +188,24 @@
               "RelativeToolTip": "NewVersionProject\\Condition.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-09T01:47:54.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T01:47:54.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Stage.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Stage.h",
               "RelativeDocumentMoniker": "NewVersionProject\\Stage.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Stage.h",
               "RelativeToolTip": "NewVersionProject\\Stage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:33:33.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Stage.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Stage.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\Stage.cpp",
@@ -197,25 +213,24 @@
               "RelativeToolTip": "NewVersionProject\\Stage.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-09T01:48:02.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T01:48:02.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "CoursePerGroup.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\CoursePerGroup.h",
               "RelativeDocumentMoniker": "NewVersionProject\\CoursePerGroup.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\CoursePerGroup.h",
               "RelativeToolTip": "NewVersionProject\\CoursePerGroup.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:33:15.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "CoursePerGroup.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\CoursePerGroup.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\CoursePerGroup.cpp",
@@ -223,77 +238,76 @@
               "RelativeToolTip": "NewVersionProject\\CoursePerGroup.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-09T01:59:47.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T01:59:47.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "RegistrationDetail.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\RegistrationDetail.h",
               "RelativeDocumentMoniker": "NewVersionProject\\RegistrationDetail.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\RegistrationDetail.h",
               "RelativeToolTip": "NewVersionProject\\RegistrationDetail.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:33:25.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "RegistrationDetail.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\RegistrationDetail.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\RegistrationDetail.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\RegistrationDetail.cpp",
               "RelativeToolTip": "NewVersionProject\\RegistrationDetail.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-09T01:48:13.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Registration.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Registration.h",
               "RelativeDocumentMoniker": "NewVersionProject\\Registration.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Registration.h",
               "RelativeToolTip": "NewVersionProject\\Registration.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:33:01.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Registration.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Registration.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\Registration.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Registration.cpp",
               "RelativeToolTip": "NewVersionProject\\Registration.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-09T01:48:26.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Student.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Student.h",
               "RelativeDocumentMoniker": "NewVersionProject\\Student.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Student.h",
               "RelativeToolTip": "NewVersionProject\\Student.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:32:38.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "Student.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Student.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\Student.cpp",
@@ -301,25 +315,24 @@
               "RelativeToolTip": "NewVersionProject\\Student.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-09T01:49:04.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T01:49:04.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Professor.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Professor.h",
               "RelativeDocumentMoniker": "NewVersionProject\\Professor.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Professor.h",
               "RelativeToolTip": "NewVersionProject\\Professor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:32:34.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "Professor.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Professor.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\Professor.cpp",
@@ -327,38 +340,37 @@
               "RelativeToolTip": "NewVersionProject\\Professor.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-09T01:49:10.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T01:49:10.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Person.h",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Person.h",
               "RelativeDocumentMoniker": "NewVersionProject\\Person.h",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Person.h",
               "RelativeToolTip": "NewVersionProject\\Person.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-09T01:32:11.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Person.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Person.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\Person.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\Person.cpp",
               "RelativeToolTip": "NewVersionProject\\Person.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-09T01:49:14.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
               "Title": "NewVersionProject.cpp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\UNA\\Projects\\NewVersionProject\\NewVersionProject\\NewVersionProject.cpp",
               "RelativeDocumentMoniker": "NewVersionProject\\NewVersionProject.cpp",

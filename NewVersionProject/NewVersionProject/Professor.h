@@ -13,7 +13,14 @@ public:
  
     Professor(string name, string id);
 
-  
+    void addProfessor();
+
+    void viewProfessorDetails();
+
+    void updateProfessorDetails();
+
+    void removeProfessor();
+
 };
 
 

@@ -6,10 +6,12 @@
 using namespace std;
 
 class RegistrationDetail : public Registration {  
+
 private:
-    string nrc;    // NRC del curso
-    double cost;   // Costo del curso
-    string grade;  // Nota del estudiante en el curso
+
+    string nrc;   
+    double cost;   
+    string grade;  
 
 public:
     // Constructor vacío
@@ -27,6 +29,17 @@ public:
 
     string getGrade() const;
     void setGrade(const string& grade);
+
+    void addRegistrationDetail();
+
+    void viewRegistrationDetail();
+
+    void updateGrade();
+
+    void calculateCost();
+
+    void removeRegistrationDetail();
+
 };
 
 

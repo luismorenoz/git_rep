@@ -7,11 +7,11 @@ using namespace std;
 class CoursePerGroup {
 private:
    
-    string nrc;           // NRC del curso
-    string courseCode;    // Código del curso (relacionado con Course)
-    string professorId;   // ID del profesor
-    int capacity;         // Capacidad del grupo
-    int stage;            // Etapa del curso
+    string nrc;           
+    string courseCode;    
+    string professorId;   
+    int capacity;         
+    int stage;            
 
 public:
 
@@ -40,6 +40,11 @@ public:
     int getStage() const;
 
     void setStage(int stage);
+
+    void addGroup();
+
+    void viewGroupDetails();
+
 };
 
 

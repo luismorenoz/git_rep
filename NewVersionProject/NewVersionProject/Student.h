@@ -14,7 +14,14 @@ public:
     
     Student(string name, string id);
 
-   
+    void addStudent();
+    
+    void viewStudentDetails();
+
+    void updateStudentDetails();
+
+    void removeStudent();
+
 };
 
 
