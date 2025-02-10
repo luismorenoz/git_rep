@@ -1,7 +1,7 @@
 #include "Student.h"
 #include <iostream>
 using namespace std;
-// Constructor vacío
+// Constructor vacÃ­o
 
 Student::Student() {
     name = "";
@@ -10,7 +10,7 @@ Student::Student() {
     level = Course();  
 }
 
-// Constructor con parámetros
+// Constructor con parÃ¡metros
 Student::Student(string name, string id, Course major, Course level) {
     this->name = name;
     this->id = id;
@@ -94,7 +94,7 @@ void showStudent(StudentNode* head, string id) {
 
 }
 
-void updateStudentDetails(StudentNode* head, string id, string newName, string newId) {
+void updateStudent(StudentNode* head, string id, string newName, string newId) {
 
     StudentNode* temp = head;
 
@@ -112,5 +112,27 @@ void updateStudentDetails(StudentNode* head, string id, string newName, string n
 
     }
 
+}
+void removeStudent(StudentNode*& head, string id) {
+    if (!head) return;
+    if (head->data.id == id) {
+        StudentNode* temp = head;
+        head = head->next;
+        delete temp;
+        cout << "Estudiante eliminado." << endl;
+        return;
+    }
+    StudentNode* temp = head;
+    while (temp->next && temp->next->data.id != id) {
+        temp = temp->next;
+    }
+    if (temp->next) {
+        StudentNode* toDelete = temp->next;
+        temp->next = temp->next->next;
+        delete toDelete;
+        cout << "Estudiante eliminado." << endl;
+    } else {
+        cout << "Estudiante no encontrado." << endl;
+    }
 }
 
