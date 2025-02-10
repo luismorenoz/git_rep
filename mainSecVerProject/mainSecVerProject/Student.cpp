@@ -113,7 +113,7 @@ void updateStudent(StudentNode* head, string id, string newName, string newId) {
     }
 
 }
-void removeStudent(StudentNode*& head, string id) {
+void deleteStudent(StudentNode*& head, string id) {
     if (!head) return;
     if (head->data.id == id) {
         StudentNode* temp = head;
