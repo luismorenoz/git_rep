@@ -1,4 +1,6 @@
 #include "Schedule.h"
+#include <iostream>
+#include <fstream>
 
 Schedule::Schedule() {
     code = " ";
