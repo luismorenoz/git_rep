@@ -1,6 +1,6 @@
 #include "CoursePerGroup.h"
 
-// Constructor vac韔
+// Constructor vac铆o
 CoursePerGroup::CoursePerGroup() {
     nrc = "";
     courseCode = "";
@@ -11,7 +11,7 @@ CoursePerGroup::CoursePerGroup() {
     year = 0;
 }
 
-// Constructor con par醡etros
+// Constructor con par谩metros
 CoursePerGroup::CoursePerGroup(string nrc, string courseCode, string scheduleCode, string professorId, int capacity, int stage, int year) {
     this->nrc = nrc;
     this->courseCode = courseCode;
@@ -71,4 +71,89 @@ int CoursePerGroup::getStage() {
 }
 int CoursePerGroup::getYear() { 
     return year; 
+}
+
+void addCoursePerGroup(CoursePerGroupNode*& head, string nrc, string courseCode, string scheduleCode, string professorId, int capacity, int stage, int year) {
+    CoursePerGroup newCourse(nrc, courseCode, scheduleCode, professorId, capacity, stage, year);
+    CoursePerGroupNode* newNode = new CoursePerGroupNode(newCourse);
+
+    if (head == nullptr) {
+        head = newNode;
+    } else {
+        CoursePerGroupNode* temp = head;
+        while (temp->next != nullptr) {
+            temp = temp->next;
+        }
+        temp->next = newNode;
+    }
+}
+
+void viewCoursePerGroup(CoursePerGroupNode* head, string nrc) {
+    CoursePerGroupNode* temp = head;
+    while (temp != nullptr) {
+        if (temp->data.getNrc() == nrc) {
+            cout << "Grupo de Curso encontrado: " << endl;
+            cout << "NRC: " << temp->data.getNrc() << endl;
+            cout << "C贸digo de Curso: " << temp->data.getCourseCode() << endl;
+            cout << "C贸digo de Horario: " << temp->data.getScheduleCode() << endl;
+            cout << "ID de Profesor: " << temp->data.getProfessorId() << endl;
+            cout << "Capacidad: " << temp->data.getCapacity() << endl;
+            cout << "Semestre: " << temp->data.getStage() << endl;
+            cout << "A帽o: " << temp->data.getYear() << endl;
+            return;
+        }
+        temp = temp->next;
+    }
+    cout << "No se encontr贸 el grupo con NRC: " << nrc << endl;
+}
+
+void updateCoursePerGroup(CoursePerGroupNode* head, string nrc, string newCourseCode, string newScheduleCode, string newProfessorId, int newCapacity, int newStage, int newYear) {
+    CoursePerGroupNode* temp = head;
+
+    while (temp != nullptr) {
+        if (temp->data.getNrc() == nrc) {
+            temp->data.setCourseCode(newCourseCode);
+            temp->data.setScheduleCode(newScheduleCode);
+            temp->data.setProfessorId(newProfessorId);
+            temp->data.setCapacity(newCapacity);
+            temp->data.setStage(newStage);
+            temp->data.setYear(newYear);
+
+            cout << "Grupo de curso actualizado: " << endl;
+            cout << "C贸digo de Curso: " << temp->data.getCourseCode() << endl;
+            cout << "C贸digo de Horario: " << temp->data.getScheduleCode() << endl;
+            cout << "ID de Profesor: " << temp->data.getProfessorId() << endl;
+            cout << "Capacidad: " << temp->data.getCapacity() << endl;
+            cout << "Semestre: " << temp->data.getStage() << endl;
+            cout << "A帽o: " << temp->data.getYear() << endl;
+            return;
+        }
+        temp = temp->next;
+    }
+
+    cout << "No se encontr贸 el grupo con NRC: " << nrc << endl;
+}
+
+void deleteCoursePerGroup(CoursePerGroupNode*& head, string nrc) {
+    CoursePerGroupNode* temp = head;
+    CoursePerGroupNode* prev = nullptr;
+
+    if (temp != nullptr && temp->data.getNrc() == nrc) {
+        head = temp->next;
+        delete temp;
+        return;
+    }
+
+    while (temp != nullptr && temp->data.getNrc() != nrc) {
+        prev = temp;
+        temp = temp->next;
+    }
+
+    if (temp == nullptr) {
+        cout << "No se encontr贸 el grupo con NRC: " << nrc << endl;
+        return;
+    }
+
+    prev->next = temp->next;
+    delete temp;
 }
