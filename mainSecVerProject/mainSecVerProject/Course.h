@@ -26,6 +26,15 @@ public:
     int getCredits();
     int getLevel();
     string getCondition();
+
+struct CourseNode {
+    Course data;
+    CourseNode* next;
+
+    CourseNode(Course course) : data(course), next(nullptr) {}
+};
+void addCourse(CourseNode*& head, string code, string name, string major, int credits, int level, string condition);
+void viewCourseDetails(CourseNode* head, string code);
 };
 
 
