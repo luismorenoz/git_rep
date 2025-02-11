@@ -51,6 +51,29 @@ string Registration::getYear() {
 }
 
 void addRegistration(RegistrationNode*& head, string code, string studentCode, int stage, string year) {
+    cout << "Ingrese los datos solicitados: " << endl;
+
+string fileName = "Registration.txt";
+
+// Verificar si el archivo existe
+ifstream checkFile(fileName);
+bool fileExists = checkFile.good();
+checkFile.close();
+
+// Abrir el archivo en modo append
+ofstream file(fileName, ios::app);
+if (!file) {
+	cerr << "Error al abrir el archivo." << std::endl;
+	return;
+}
+
+// Si el archivo no existe, escribir la cabecera
+if (!fileExists) {
+    
+    // PREGUNTAR!!!!!!
+    
+	file << "Codigo;CodigoEst;Ciclo;Year\n";
+}
     Registration newRegistration(code, studentCode, stage, year);
     RegistrationNode* newNode = new RegistrationNode(newRegistration);
 
@@ -65,6 +88,13 @@ void addRegistration(RegistrationNode*& head, string code, string studentCode, i
     }
 }
 
+// NECESITA REVISAR !!!!!!!!!!
+
+	/*
+	file << code << ";" << studentCode << ";" << ";" << stage << ";" << year << "\n";
+	file.close();
+	*/
+}
 // Ver detalles del registro de matrícula
 void viewRegistration(RegistrationNode* head, string code) {
     RegistrationNode* temp = head;
