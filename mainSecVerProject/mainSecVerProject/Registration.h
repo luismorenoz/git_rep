@@ -11,10 +11,10 @@ private:
     string year;
 
 public:
-    // Constructor vacÌo
+    // Constructor vac√≠o
     Registration();
 
-    // Constructor con par·metros
+    // Constructor con par√°metros
     Registration(string code, string studentCode, int stage, string year);
 
     // Setters
@@ -30,7 +30,14 @@ public:
     string getYear();
 };
 
+struct RegistrationNode {
+    Registration data;
+   RegistrationNode* next;
+
+    RegistrationNode (Registration registration) {
+data = registration; 
+next = nullptr;
 
 
-
-
+}
+};
