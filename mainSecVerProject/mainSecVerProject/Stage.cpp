@@ -1,4 +1,6 @@
 #include "Stage.h"
+#include <iostream>
+#include <fstream>
 
 
 Stage::Stage() {
