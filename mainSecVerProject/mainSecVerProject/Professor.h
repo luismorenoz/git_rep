@@ -28,12 +28,8 @@ struct ProfessorNode {
     ProfessorNode(Professor professor) {
 data = professor; 
 next = nullptr;
-
-
-}
+ }
 };
-
-// Métodos CRUD
 void addProfessor(ProfessorNode*& head, string id, string name, string degree);
 void viewProfessor(ProfessorNode* head, string id);
 void updateProfessor(ProfessorNode* head, string id, string newName, string newDegree);
