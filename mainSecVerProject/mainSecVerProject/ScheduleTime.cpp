@@ -1,4 +1,6 @@
 #include "ScheduleTime.h"
+#include <iostream>
+#include <fstream>
 
 ScheduleTime::ScheduleTime() {
     scheduleCode = Schedule(); 
