@@ -101,10 +101,10 @@ if (!fileExists) {
 
 	// NECESITA REVISAR !!!!!!!!!!
 
-	/*
-	file << name << ";" << id << ";" << ";" << teacher << ";" << selectedSchedule.getCode() << "\n";
+	
+	file << name << ";" << id << ";" << ";" << professor << ";" << Schedule.getCode() << "\n";
 	file.close();
-	*/
+	
 }
 
 void showStudent(StudentNode* head, string id) {
