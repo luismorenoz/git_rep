@@ -14,10 +14,10 @@ private:
     int year;
 
 public:
-    // Constructor vacÌo
+    // Constructor vac√≠o
     CoursePerGroup();
 
-    // Constructor con par·metros
+    // Constructor con par√°metros
     CoursePerGroup(string nrc, string courseCode, string scheduleCode, string professorId, int capacity, int stage, int year);
 
     // Setters
@@ -38,6 +38,18 @@ public:
     int getStage();
     int getYear();
 };
+struct CoursePerGroupNode {
+    CoursePerGroup data;
+    CoursePerGroupNode* next;
+
+    CoursePerGroupNode(CoursePerGroup coursePerGroup) {
+        data = coursePerGroup;
+        next = nullptr;
+    }
+};
+void addCoursePerGroup(CoursePerGroupNode*& head, string nrc, string courseCode, string scheduleCode, string professorId, int capacity, int stage, int year);
+
+void viewCoursePerGroup(CoursePerGroupNode* head, string nrc);
 
 
 
