@@ -52,3 +52,66 @@ int Course::getLevel() {
 string Course::getCondition() {
     return condition;
 }
+void addCourse(CourseNode*& head, string code, string name, string major, int credits, int level, string condition) {
+    Course newCourse(code, name, major, credits, level, condition);
+    CourseNode* newNode = new CourseNode(newCourse);
+
+    if (!head) {
+        head = newNode;
+    } else {
+        CourseNode* temp = head;
+        while (temp->next) temp = temp->next;
+        temp->next = newNode;
+    }
+}
+
+void viewCourseDetails(CourseNode* head, string code) {
+    CourseNode* temp = head;
+    while (temp) {
+        if (temp->data.code == code) {
+            cout << "Curso: " << temp->data.name << ", Código: " << temp->data.code << endl;
+            return;
+        }
+        temp = temp->next;
+    }
+    cout << "Curso no encontrado." << endl;
+}
+void updateCourseDetails(CourseNode* head, string code, string newName, string newMajor, int newCredits, int newLevel, string newCondition) {
+    CourseNode* temp = head;
+    while (temp) {
+        if (temp->data.code == code) {
+            temp->data.setName(newName);
+            temp->data.setMajor(newMajor);
+            temp->data.setCredits(newCredits);
+            temp->data.setLevel(newLevel);
+            temp->data.setCondition(newCondition);
+            cout << "Curso actualizado." << endl;
+            return;
+        }
+        temp = temp->next;
+    }
+    cout << "Curso no encontrado." << endl;
+}
+
+void removeCourse(CourseNode*& head, string code) {
+    if (!head) return;
+    if (head->data.code == code) {
+        CourseNode* temp = head;
+        head = head->next;
+        delete temp;
+        cout << "Curso eliminado." << endl;
+        return;
+    }
+    CourseNode* temp = head;
+    while (temp->next && temp->next->data.code != code) {
+        temp = temp->next;
+    }
+    if (temp->next) {
+        CourseNode* toDelete = temp->next;
+        temp->next = temp->next->next;
+        delete toDelete;
+        cout << "Curso eliminado." << endl;
+    } else {
+        cout << "Curso no encontrado." << endl;
+    }
+}
