@@ -1,6 +1,6 @@
 #include "Registration.h"
 
-// Constructor vac�o
+// Constructor vacío
 Registration::Registration() {
     code = "";
     studentCode = "";
@@ -8,7 +8,7 @@ Registration::Registration() {
     year = "";
 }
 
-// Constructor con par�metros
+// Constructor con parámetros
 Registration::Registration(string code, string studentCode, int stage, string year) {
     this->code = code;
     this->studentCode = studentCode;
@@ -49,3 +49,83 @@ int Registration::getStage() {
 string Registration::getYear() {
     return year;
 }
+
+void addRegistration(RegistrationNode*& head, string code, string studentCode, int stage, string year) {
+    Registration newRegistration(code, studentCode, stage, year);
+    RegistrationNode* newNode = new RegistrationNode(newRegistration);
+
+    if (head == nullptr) {
+        head = newNode;
+    } else {
+        RegistrationNode* temp = head;
+        while (temp->next != nullptr) {
+            temp = temp->next;
+        }
+        temp->next = newNode;
+    }
+}
+
+// Ver detalles del registro de matrícula
+void viewRegistration(RegistrationNode* head, string code) {
+    RegistrationNode* temp = head;
+    while (temp != nullptr) {
+        if (temp->data.getCode() == code) {
+            cout << "Matrícula encontrada: " << endl;
+            cout << "Código: " << temp->data.getCode() << endl;
+            cout << "Código de Estudiante: " << temp->data.getStudentCode() << endl;
+            cout << "Semestre: " << temp->data.getStage() << endl;
+            cout << "Año: " << temp->data.getYear() << endl;
+            return;
+        }
+        temp = temp->next;
+    }
+    cout << "No se encontró la matrícula con el código: " << code << endl;
+}
+
+// Actualizar un registro de matrícula
+void updateRegistration(RegistrationNode* head, string code, string newStudentCode, int newStage, string newYear) {
+    RegistrationNode* temp = head;
+
+    while (temp != nullptr) {
+        if (temp->data.getCode() == code) {
+            temp->data.setStudentCode(newStudentCode);
+            temp->data.setStage(newStage);
+            temp->data.setYear(newYear);
+
+            cout << "Matrícula actualizada: " << endl;
+            cout << "Código de Estudiante: " << temp->data.getStudentCode() << endl;
+            cout << "Semestre: " << temp->data.getStage() << endl;
+            cout << "Año: " << temp->data.getYear() << endl;
+            return;
+        }
+        temp = temp->next;
+    }
+
+    cout << "No se encontró la matrícula con el código: " << code << endl;
+}
+
+// Eliminar un registro de matrícula
+void deleteRegistration(RegistrationNode*& head, string code) {
+    RegistrationNode* temp = head;
+    RegistrationNode* prev = nullptr;
+
+    if (temp != nullptr && temp->data.getCode() == code) {
+        head = temp->next;
+        delete temp;
+        return;
+    }
+
+    while (temp != nullptr && temp->data.getCode() != code) {
+        prev = temp;
+        temp = temp->next;
+    }
+
+    if (temp == nullptr) {
+        cout << "No se encontró la matrícula con el código: " << code << endl;
+        return;
+    }
+
+    prev->next = temp->next;
+    delete temp;
+}
+
