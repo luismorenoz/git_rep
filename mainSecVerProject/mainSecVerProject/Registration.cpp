@@ -92,8 +92,8 @@ if (!fileExists) {
 
 // NECESITA REVISAR !!!!!!!!!!
 
-	/*
-	file << code << ";" << studentCode << ";" << ";" << stage << ";" << year << "\n";
+	/* 
+	file << code <<  ";" << studentCode << ";" << stage << ";" << year << "\n";
 	file.close();
 	*/
 }
