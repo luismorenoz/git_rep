@@ -1,5 +1,6 @@
 #include "Course.h"
 #include <iostream>
+#include <fstream>
 
 Course::Course() {
     code = " ";
