@@ -29,7 +29,24 @@ public:
     string getId();
     Course getMajor();
     Course getLevel();
+
+ 
+};
+struct StudentNode {
+
+    Student data;
+    StudentNode* next;
+
+    StudentNode(Student student) {
+        data = student;
+        next = nullptr;
+
+    }
+
+
 };
 
-
-
+void addStudent(StudentNode*& head, string name, string id, Course major, Course level);
+void showStudent(StudentNode* head, string id);
+void updateStudent(StudentNode* head, string id, string newName, string newId, Course newMajor, Course newLevel);
+void deleteStudent(StudentNode* head, string id, string newName, string newId, Course newMajor, Course newLevel);
