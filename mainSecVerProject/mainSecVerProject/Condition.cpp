@@ -1,5 +1,5 @@
 #include "Condition.h"
-
+#include <iostream>
 Condition::Condition() {
     courseA = "";
     courseB = "";
