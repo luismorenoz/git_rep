@@ -51,5 +51,9 @@ void addCoursePerGroup(CoursePerGroupNode*& head, string nrc, string courseCode,
 
 void viewCoursePerGroup(CoursePerGroupNode* head, string nrc);
 
+void updateCoursePerGroup(CoursePerGroupNode* head, string nrc, string newCourseCode, string newScheduleCode, string newProfessorId, int newCapacity, int newStage, int newYear);
+
+void deleteCoursePerGroup(CoursePerGroupNode*& head, string nrc);
+
 
 
