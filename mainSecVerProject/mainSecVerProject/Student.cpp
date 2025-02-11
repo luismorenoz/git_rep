@@ -1,5 +1,7 @@
 #include "Student.h"
 #include <iostream>
+#include <fstream>
+
 using namespace std;
 // Constructor vacío
 
@@ -54,6 +56,29 @@ Course Student::getLevel() {
 
 void addStudent(StudentNode*& head, string name, string id, Course major, Course level) {
 
+ cout << "Ingrese los datos solicitados: " << endl;
+
+string fileName = "Student.txt";
+
+// Verificar si el archivo existe
+ifstream checkFile(fileName);
+bool fileExists = checkFile.good();
+checkFile.close();
+
+// Abrir el archivo en modo append
+ofstream file(fileName, ios::app);
+if (!file) {
+	cerr << "Error al abrir el archivo." << std::endl;
+	return;
+}
+
+// Si el archivo no existe, escribir la cabecera
+if (!fileExists) {
+    
+    // PREGUNTAR!!!!!!
+    
+	file << "nombreDelEst;id;carrera;nivel\n";
+}
     Student newStudent(name, id, major, level);
     StudentNode* newNode = new StudentNode(newStudent);
 
@@ -74,6 +99,13 @@ void addStudent(StudentNode*& head, string name, string id, Course major, Course
 
 }
 
+	// NECESITA REVISAR !!!!!!!!!!
+
+	/*
+	file << name << ";" << id << ";" << ";" << teacher << ";" << selectedSchedule.getCode() << "\n";
+	file.close();
+	*/
+}
 
 void showStudent(StudentNode* head, string id) {
 
