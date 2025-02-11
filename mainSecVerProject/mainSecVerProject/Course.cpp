@@ -52,11 +52,36 @@ int Course::getLevel() {
 string Course::getCondition() {
     return condition;
 }
-void addCourse(CourseNode*& head, string code, string name, string major, int credits, int level, string condition) {
+
+void addCourse(CourseNode*& head, string code, string name, string major, int credits, int level, string condition){
+cout << "Ingrese los datos solicitados: " << endl;
+
+string fileName = "Course.txt";
+
+// Verificar si el archivo existe
+ifstream checkFile(fileName);
+bool fileExists = checkFile.good();
+checkFile.close();
+
+// Abrir el archivo en modo append
+ofstream file(fileName, ios::app);
+if (!file) {
+	cerr << "Error al abrir el archivo." << std::endl;
+	return;
+}
+
+// Si el archivo no existe, escribir la cabecera
+if (!fileExists) {
+    
+    // PREGUNTAR!!!!!!
+    
+	file << "Codigo;Nombre;Carrera;Creditos;Nivel;Requisitos\n";
+}
+    
     Course newCourse(code, name, major, credits, level, condition);
     CourseNode* newNode = new CourseNode(newCourse);
 
-    if (!head) {
+    if (!head) 
         head = newNode;
     } else {
         CourseNode* temp = head;
@@ -64,7 +89,13 @@ void addCourse(CourseNode*& head, string code, string name, string major, int cr
         temp->next = newNode;
     }
 }
+// NECESITA REVISAR !!!!!!!!!!
 
+	/*
+	file << code << ";" << name << ";" << ";" << major << ";" << credit <<";"<< level <<";"<< condition << "\n";
+	file.close();
+	*/
+}
 void viewCourseDetails(CourseNode* head, string code) {
     CourseNode* temp = head;
     while (temp) {
