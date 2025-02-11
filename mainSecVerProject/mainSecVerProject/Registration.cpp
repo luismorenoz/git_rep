@@ -1,4 +1,6 @@
 #include "Registration.h"
+#include <iostream>
+#include <fstream>
 
 // Constructor vacío
 Registration::Registration() {
