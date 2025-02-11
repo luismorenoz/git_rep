@@ -41,3 +41,8 @@ next = nullptr;
 
 }
 };
+void addRegistration(RegistrationNode*& head, string studentCode, int stage, string year);
+void viewRegistration(RegistrationNode* head, string code);
+void updateRegistration(RegistrationNode* head, string code, string newStudentCode, int newStage, string newYear);
+void deleteRegistration(RegistrationNode*& head, string code);
+
